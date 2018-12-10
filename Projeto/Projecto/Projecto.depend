@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1544295883 source:d:\estg\p1\projeto\projecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544286862 d:\estg\p1\projeto\projecto\constantes.h
+
+1544293988 d:\estg\p1\projeto\projecto\funcoes_auxiliares.h
+	"structs.h"
+	"constantes.h"
+
+1544295779 d:\estg\p1\projeto\projecto\structs.h
+	"constantes.h"
+
+1544291945 source:d:\estg\p1\projeto\projecto\funcao_menu.c
+	<stdio.h>
+	<ctype.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544291049 d:\estg\p1\projeto\projecto\funcao_menu.h
+
+1544288289 source:d:\estg\p1\projeto\projecto\funcoes_auxiliares.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544295651 source:d:\estg\p1\projeto\projecto\funcoes_bicicletas.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544480460 source:c:\users\2181620\desktop\projeto\projecto\funcao_menu.c
+	<stdio.h>
+	<ctype.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544484363 c:\users\2181620\desktop\projeto\projecto\funcoes_auxiliares.h
+	"structs.h"
+	"constantes.h"
+
+1544484363 c:\users\2181620\desktop\projeto\projecto\structs.h
+	"constantes.h"
+
+1544480460 c:\users\2181620\desktop\projeto\projecto\constantes.h
+
+1544481812 c:\users\2181620\desktop\projeto\projecto\funcao_menu.h
+
+1544484027 source:c:\users\2181620\desktop\projeto\projecto\funcoes_auxiliares.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544482926 source:c:\users\2181620\desktop\projeto\projecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544483950 source:c:\users\2181620\desktop\projeto\projecto\funcoes_bicicletas.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
