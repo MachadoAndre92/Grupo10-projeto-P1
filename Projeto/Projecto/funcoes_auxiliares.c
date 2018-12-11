@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 #include "constantes.h"
 #include "funcoes_auxiliares.h"
 #include "structs.h"
 
-
+//Procura e compara Strings!
 int procurarString(tipoBike vetorBikes[],int contadorBikes,char str1[])
 {
 
     int posicao=-1,i;
     for(i=0; i<contadorBikes; i++)
             {
-                if(strcmp(str1,vetorBikes[i].bikeCodigo)==0)
+
+                if(strcmp(vetorBikes[i].bikeDesignacao,str1)==0)
                 {
                     posicao=i;
                     i=contadorBikes;

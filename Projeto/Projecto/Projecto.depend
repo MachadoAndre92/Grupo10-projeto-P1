@@ -83,3 +83,46 @@
 	"funcoes_auxiliares.h"
 	"funcao_menu.h"
 
+1544566995 source:c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\funcao_menu.c
+	<stdio.h>
+	<ctype.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544566902 c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\funcoes_auxiliares.h
+	"structs.h"
+	"constantes.h"
+
+1544566938 c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\structs.h
+	"constantes.h"
+
+1544567495 c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\constantes.h
+
+1544485360 c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\funcao_menu.h
+
+1544570099 source:c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\funcoes_auxiliares.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544569812 source:c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\funcoes_bicicletas.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544566388 source:c:\users\2181620\downloads\grupo10-projeto-p1-master\projeto\projecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+

@@ -11,10 +11,19 @@ typedef struct
 
 typedef struct
 {
-    char bikeCodigo[MAX_STRING];
-    char modelo[MAX_STRING];
+    int registoEmprestimo;
+    char bikeEmprestimo[MAX_STRING];
+    int codEmprestimoUtente;
+} tipoEmprestimo;
+
+typedef struct
+{
+    char bikeDesignacao[MAX_STRING];
+    char bikeModelo[MAX_STRING];
     int bikeEstado;
     int bikeCampus;
+    float bikeKm;
+    int bikeEmprestimos;
 } tipoBike;
 
 typedef struct

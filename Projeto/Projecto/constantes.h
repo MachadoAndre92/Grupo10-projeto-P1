@@ -3,6 +3,6 @@
 
 #define MAX_BICICLETAS 15
 #define MAX_UTENTES 50
-#define MAX_STRING 50
+#define MAX_STRING 100
 
 #endif // CONSTANTES_H_INCLUDED

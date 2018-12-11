@@ -43,6 +43,9 @@
 		<Unit filename="funcoes_bicicletas.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="funcoes_utente.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -48,10 +48,11 @@ int main()
                 switch (subOpcao)
                 {
                 case 'A':
-
                         adicionarBike(vetorBikes,&contadorBikes);
-
                     break;
+                case 'M':
+                        consultarBike(vetorBikes,contadorBikes);
+                        break;
 
                 case 'V':
                     break;
@@ -74,7 +75,7 @@ int main()
     while (opcao!='S');
 
     for(i = 0; i < contadorBikes; i++) {
-        free(vetorBikes[i].modelo);
+        free(vetorBikes[i].bikeModelo);
     }
 
 

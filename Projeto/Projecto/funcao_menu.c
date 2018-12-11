@@ -53,7 +53,8 @@ char menuBike(char descricaoUtente[],int opcaoUtente)
     printf("%s\n",descricaoUtente);
 
     printf("[A]dicionar Bicicleta\n");
-    printf("[V]oltar\n");
+    printf("[M]ostrar Bicicleta\n");
+    printf("[V]oltar ao Menu Principal\n");
     printf("opcao:");
 
 
