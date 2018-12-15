@@ -126,3 +126,56 @@
 	"funcoes_auxiliares.h"
 	"structs.h"
 
+1544890846 source:c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcao_menu.c
+	<stdio.h>
+	<ctype.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544892292 c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcoes_auxiliares.h
+	"structs.h"
+	"constantes.h"
+
+1544892364 c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\structs.h
+	"constantes.h"
+	"time.h"
+
+1544892436 c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\constantes.h
+
+1544886760 c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcao_menu.h
+
+1544892615 source:c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcoes_auxiliares.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544889313 source:c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcoes_bicicletas.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+
+1544892521 source:c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"constantes.h"
+	"funcoes_auxiliares.h"
+	"structs.h"
+
+1544892446 source:c:\users\2181620\desktop\github projeto\grupo10-projeto-p1\projeto\projecto\funcoes_utente.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"funcoes_auxiliares.h"
+	"funcao_menu.h"
+

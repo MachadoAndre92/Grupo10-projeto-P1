@@ -17,7 +17,7 @@ void adicionarBike(tipoBike vetorBikes[],int *contadorBikes)
         {
 
             lerString("\nInsira a DESIGNACAO da Bicicleta:",vetorBikes[*contadorBikes].bikeDesignacao,MAX_STRING);
-            aux=procurarString(vetorBikes,*contadorBikes,vetorBikes[*contadorBikes].bikeDesignacao);
+            aux=procurarStringBike(vetorBikes,*contadorBikes,vetorBikes[*contadorBikes].bikeDesignacao);
 
             if(aux!=-1)
             {
@@ -89,7 +89,7 @@ void consultarBike(tipoBike vetorBikes[],int contadorBikes)
 
         lerString("\nQual a DESIGNACAO da bicicleta:",opcaoConsultar,MAX_STRING);
 
-        posicao=procurarString(vetorBikes,contadorBikes,opcaoConsultar);
+        posicao=procurarStringBike(vetorBikes,contadorBikes,opcaoConsultar);
         printf("\n%d",posicao);
 
         if (posicao==-1)
@@ -129,7 +129,7 @@ void consultarBike(tipoBike vetorBikes[],int contadorBikes)
                 break;
             }
 
-            printf("%.2fKM",vetorBikes[posicao].bikeKm);
+            //printf("%.2fKM",vetorBikes[posicao].bikeKm);
 
         }
 

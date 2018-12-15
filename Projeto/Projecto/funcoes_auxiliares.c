@@ -7,7 +7,7 @@
 #include "structs.h"
 
 //Procura e compara Strings!
-int procurarString(tipoBike vetorBikes[],int contadorBikes,char str1[])
+int procurarStringBike(tipoBike vetorBikes[],int contadorBikes,char str1[])
 {
 
     int posicao=-1,i;
@@ -22,6 +22,23 @@ int procurarString(tipoBike vetorBikes[],int contadorBikes,char str1[])
 
             }
 
+    return posicao;
+}
+
+int procurarInteiroUtente(tipoUtente vetorUtentes[],int contadorUtentes,int auxiliar)
+{
+    pro
+    int posicao=-1,i;
+    for(i=0; i<contadorUtentes; i++)
+            {
+                if(vetorUtentes[i].utenteCod==auxiliar)
+                {
+                    posicao=i;
+                    i=contadorUtentes;
+                }
+
+            }
+    printf("posicao %d",posicao);
     return posicao;
 }
 

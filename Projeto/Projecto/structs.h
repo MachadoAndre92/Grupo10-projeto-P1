@@ -2,6 +2,8 @@
 #define STRUCTS_H_INCLUDED
 
 #include "constantes.h"
+#include "time.h"
+
 typedef struct
 {
     int dia;
@@ -14,6 +16,7 @@ typedef struct
     int registoEmprestimo;
     char bikeEmprestimo[MAX_STRING];
     int codEmprestimoUtente;
+    time_t dataEmprestimo;
 } tipoEmprestimo;
 
 typedef struct

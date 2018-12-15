@@ -4,7 +4,7 @@
 #include "funcoes_auxiliares.h"
 #include "funcao_menu.h"
 
-int menuUtente()
+int menuTipoUtente()
 {
     int opcao;
 
@@ -29,6 +29,8 @@ char menu(char descricaoUtente[],int opcaoUtente)
     printf("\n*****************************MENU PRINCIPAL******************************************\n");
     printf("%s\n",descricaoUtente);
 
+
+    printf("[U]tentes\n");
     printf("[B]icicletas\n");
 
 
@@ -66,6 +68,27 @@ char menuBike(char descricaoUtente[],int opcaoUtente)
     return opcao;
 
 
+}
+
+char menuUtente(char descricaoUtente[],int opcaoUtente)
+{
+    char opcao;
+
+    printf("\n*****************************Utente******************************************\n");
+    printf("%s\n",descricaoUtente);
+
+    printf("[A]dicionar Utente\n");
+
+    printf("[V]oltar ao Menu Principal\n");
+    printf("opcao:");
+
+
+    opcao=getchar();
+    limpaBufferStdin();
+
+    opcao=toupper(opcao);
+
+    return opcao;
 }
 
 

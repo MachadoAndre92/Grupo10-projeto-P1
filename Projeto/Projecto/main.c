@@ -8,13 +8,15 @@
 
 int main()
 {
-    int opcaoUtente,contadorBikes=0,i;
+
+    int opcaoUtente,contadorBikes=0,contadorUtentes=0,i;
     char opcao,subOpcao;
     char descricaoUtente[25];
     tipoBike vetorBikes[MAX_BICICLETAS];
+    tipoUtente vetorUtentes[MAX_UTENTES];
 
 
-    opcaoUtente=menuUtente();
+    opcaoUtente=menuTipoUtente();
 
     switch (opcaoUtente)
     {
@@ -33,6 +35,7 @@ int main()
     }
 
 
+
     do
     {
 
@@ -40,19 +43,34 @@ int main()
 
         switch (opcao)
         {
-        case 'B':
 
+        case 'U':
+            do
+            {
+                subOpcao=menuUtente(descricaoUtente,opcaoUtente);
+                switch (subOpcao)
+                {
+                case 'A':
+                    adicionarUtente(vetorUtentes,&contadorUtentes);
+                    break;
+                }
+
+            }
+            while (subOpcao!='V');
+            break;
+
+        case 'B':
             do
             {
                 subOpcao=menuBike(descricaoUtente,opcaoUtente);
                 switch (subOpcao)
                 {
                 case 'A':
-                        adicionarBike(vetorBikes,&contadorBikes);
+                    adicionarBike(vetorBikes,&contadorBikes);
                     break;
                 case 'M':
-                        consultarBike(vetorBikes,contadorBikes);
-                        break;
+                    consultarBike(vetorBikes,contadorBikes);
+                    break;
 
                 case 'V':
                     break;
@@ -74,7 +92,8 @@ int main()
     }
     while (opcao!='S');
 
-    for(i = 0; i < contadorBikes; i++) {
+    for(i = 0; i < contadorBikes; i++)
+    {
         free(vetorBikes[i].bikeModelo);
     }
 

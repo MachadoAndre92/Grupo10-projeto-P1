@@ -10,20 +10,26 @@ void lerString(char mensagem[MAX_STRING], char vetorCaracteres[MAX_STRING], int 
 tipoData lerData();
 void limpaBufferStdin(void);
 
-int procurarString(tipoBike vetorBikes[],int contadorBikes,char str1[]);
+int procurarStringBike(tipoBike vetorBikes[],int contadorBikes,char str1[]);
+int procurarInteiroUtente(tipoUtente vetorUtentes[],int contadorUtentes,int auxiliar);
+
 
 
 
 //Funçoes Menu
-int menuUtente();
+int menuTipoUtente();
 char menu(char descricaoUtente[],int opcaoUtente);
 char menuBike(char descricaoUtente[],int opcaoUtente);
+char menuUtente(char descricaoUtente[],int opcaoUtente);
 
 
 //Funções Bicicletas
 void adicionarBike(tipoBike vetorBikes[],int* contadorBikes);
 void consultarBike(tipoBike vetorBikes[],int contadorBikes);
 
+
+//Funcções Bicicletas
+void adicionarUtente(tipoUtente vetorUtentes[],int *contadorUtentes);
 
 
 
