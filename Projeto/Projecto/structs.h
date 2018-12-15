@@ -32,9 +32,9 @@ typedef struct
 typedef struct
 {
     int utenteCod;
-    char utenteNome;
+    char utenteNome[MAX_STRING];
     int utenteTelefone;
-    char utenteTipo;
+    char utenteTipo[MAX_STRING];
 } tipoUtente;
 
 

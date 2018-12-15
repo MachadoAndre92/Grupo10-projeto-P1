@@ -90,7 +90,7 @@ void consultarBike(tipoBike vetorBikes[],int contadorBikes)
         lerString("\nQual a DESIGNACAO da bicicleta:",opcaoConsultar,MAX_STRING);
 
         posicao=procurarStringBike(vetorBikes,contadorBikes,opcaoConsultar);
-        printf("\n%d",posicao);
+
 
         if (posicao==-1)
         {

@@ -53,6 +53,10 @@ int main()
                 case 'A':
                     adicionarUtente(vetorUtentes,&contadorUtentes);
                     break;
+
+                case 'C':
+                    consultarUtente(vetorUtentes,contadorUtentes);
+                    break;
                 }
 
             }

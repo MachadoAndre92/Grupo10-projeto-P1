@@ -30,6 +30,7 @@ void consultarBike(tipoBike vetorBikes[],int contadorBikes);
 
 //Funcções Bicicletas
 void adicionarUtente(tipoUtente vetorUtentes[],int *contadorUtentes);
+void consultarUtente(tipoUtente vetorUtentes[],int contadorUtentes);
 
 
 

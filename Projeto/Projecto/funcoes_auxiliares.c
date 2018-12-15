@@ -27,7 +27,7 @@ int procurarStringBike(tipoBike vetorBikes[],int contadorBikes,char str1[])
 
 int procurarInteiroUtente(tipoUtente vetorUtentes[],int contadorUtentes,int auxiliar)
 {
-    pro
+
     int posicao=-1,i;
     for(i=0; i<contadorUtentes; i++)
             {
@@ -38,7 +38,7 @@ int procurarInteiroUtente(tipoUtente vetorUtentes[],int contadorUtentes,int auxi
                 }
 
             }
-    printf("posicao %d",posicao);
+
     return posicao;
 }
 
@@ -51,7 +51,7 @@ int lerInteiro(char mensagem[MAX_STRING], int minimo, int maximo)
     int numero, controlo;
     do
     {
-        printf("%s (%d a %d) :", mensagem, minimo, maximo);
+        printf("%s :", mensagem);
         controlo = scanf ("%d", &numero);  // scanf devolve quantidade de valores vàlidos obtidos
         limpaBufferStdin();     //limpa todos os caracteres do buffer stdin (nomeadamente o \n)
 
